@@ -11,7 +11,7 @@ const TodoTemplateBlock =  styled.div`
   box-shadow: 0 0 8px 0 rgba(0,0,0,.04);
 
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 `;

@@ -6,6 +6,7 @@ import TodoItem from './TodoItem';
 const TodoListBlock = styled.div`
   flex: 1;
   padding: 20px 32px 40px 32px;
+  box-sizing: border-box;
   overflow-y: auto;
 `;
 

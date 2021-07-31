@@ -10,6 +10,9 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: #eee;
     height: 100vh;
+    h1 {
+      text-align: center;
+    }
   }
 `;
 
@@ -17,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <TodoProvider>
+      <h1>Todo List</h1>
       <GlobalStyle />
       <TodoTemplate>
         <TodoHead />

@@ -3,21 +3,21 @@ import styled from 'styled-components';
 import { useTodoState } from './TodoContext';
 
 const TodoHeadBlock = styled.div`
-  padding: 40px 32px 24px 32px;
+  padding: 30px 32px 24px 32px;
   border-bottom: 1px solid #eee;
-  h1 {
+  h2 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #000;
   }
   .day {
     margin-top: 4px;
     color: #8c8c8c;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .task-left {
     color: #4419e0;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     margin-top: 30px;
     font-weight: bold;
   }
@@ -39,7 +39,7 @@ function TodoHead() {
 
   return (
     <TodoHeadBlock>
-      <h1>{dateString}</h1>
+      <h2>{dateString}</h2>
       <div className="day">{dayName}</div>
       <div className="task-left">할 일 {undoneTasks.length}개 남음</div>
     </TodoHeadBlock>
